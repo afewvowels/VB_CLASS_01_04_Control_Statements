@@ -121,7 +121,7 @@
         ' #1. Inequality test
         If PatientNameTextBox.Text <> String.Empty Then
             If (CleaningCheckBox.Checked = True) OrElse
-                (FillingCheckBox.Checked = True) OrElse
+                (FillingCheckBox.Checked = True) Then
                 (XRayCheckBox.Checked = True) Then
 
                 If (CleaningCheckBox.Checked = True) Then
